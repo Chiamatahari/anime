@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     margin: 50px 50px 0px 50px;
 }
-h1{
+h1, p{
     font-family: Helvetica, sans-serif;
 }
 
@@ -34,10 +34,19 @@ h1{
 .pic{
     border: 10px solid white;
     float: left;
+    border-radius: 50%;
    
     width: 100px;
     height: 100px;
 }
 .sid{
     clear: both;
+}
+@media (max-width: 680px){
+    body{
+        font-size: 12px;
+    }
+    .characters{
+        color:red;
+    }
 }
